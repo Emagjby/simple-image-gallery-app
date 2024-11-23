@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Basic reset and font setup */
+body {
+  margin: 0;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+/* Center the container to take up the full height and center the gallery */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;  /* Full viewport height */
+  background-color: #f0f0f0; /* Light background color */
+  margin: 0;
+}
+
+/* Styling for the image gallery grid */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  /* 3 equal-width columns */
+  gap: 16px;  /* Space between images */
+  width: 60%;  /* Gallery width set to 60% of the screen */
+  max-width: 750px; /* Max width of the gallery */
+  padding: 16px;
+  border-radius: 16px;  /* Rounded corners for the gallery */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  background-color: white; /* White background for gallery */
+  transition: transform 0.3s ease; /* Smooth zoom effect on hover */
+}
+
+/* Zoom effect on the gallery when hovered */
+.gallery:hover {
+  transform: scale(1.05);  /* Slight zoom on hover */
+}
+
+/* Styling for each image container inside the gallery */
+.image-container {
+  position: relative; /* Position the title inside the container */
+  overflow: hidden;  /* Hide overflowing parts of the image when zoomed */
+  border-radius: 8px;  /* Rounded corners for individual images */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow effect around images */
+}
+
+/* Image styling */
+.image-container img {
+  width: 100%; /* Make images take full width of their container */
+  height: 100%; /* Ensure images fill the container */
+  object-fit: cover; /* Maintain aspect ratio while covering the container */
+  transition: transform 0.3s ease; /* Smooth zoom effect on hover */
+}
+
+/* Styling for the title that appears on image hover */
+.image-container .title {
+  position: absolute;
+  bottom: 10px;  /* Position the title at the bottom of the image */
+  left: 10px;    /* Position the title a bit to the left */
+  color: white;  /* White text color */
+  font-size: 18px;  /* Font size for the title */
+  font-weight: 200;  /* Lighter font weight */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for better readability */
+  background: rgba(0, 0, 0, 0.75); /* Dark background for the title */
+  padding: 5px;
+  display: none; /* Title is hidden by default */
+  opacity: 0;  /* Title is fully transparent initially */
+  transition: opacity 0.3s ease; /* Smooth fade-in effect */
+}
+
+/* Show title when hovering over an image */
+.image-container:hover .title {
+  display: block;  /* Show the title */
+  opacity: 1;  /* Make the title visible */
+}
+
+/* Image zoom effect when hovering over an individual image */
+.image-container:hover img {
+  transform: scale(1.1);  /* Slight zoom effect on the image */
+}
