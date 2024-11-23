@@ -40,7 +40,7 @@ This project implements an **Image Gallery** with enhanced interactivity and mod
    - Buttons, images, and titles have smooth transition effects, enhancing the overall user experience.
 
 ## Live Demo
-You can view the live demo of this project [**here**](https://Emagjby.github.com/simple-image-gallery-app).
+You can view the live demo of this project [**here**](https://Emagjby.github.io/simple-image-gallery-app).
 
 ## Instructions
 
