@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/my-project/static/css/main.e35b399f.css",
-    "main.js": "/my-project/static/js/main.5522e42d.js",
-    "static/media/buranoView.jpg": "/my-project/static/media/buranoView.a4a8705b14cfc4df3292.jpg",
-    "static/media/abstractBackground.jpg": "/my-project/static/media/abstractBackground.b9f96d6f40d4095c945b.jpg",
-    "static/media/pizzaFries.jpg": "/my-project/static/media/pizzaFries.cdd0d5c267462b85007d.jpg",
-    "static/media/clockTowerVenice.jpg": "/my-project/static/media/clockTowerVenice.f586a611a5b03baf4477.jpg",
-    "index.html": "/my-project/index.html",
-    "main.e35b399f.css.map": "/my-project/static/css/main.e35b399f.css.map",
-    "main.5522e42d.js.map": "/my-project/static/js/main.5522e42d.js.map"
+    "main.css": "/simple-image-gallery-app/static/css/main.e35b399f.css",
+    "main.js": "/simple-image-gallery-app/static/js/main.94a224d6.js",
+    "static/media/buranoView.jpg": "/simple-image-gallery-app/static/media/buranoView.a4a8705b14cfc4df3292.jpg",
+    "static/media/abstractBackground.jpg": "/simple-image-gallery-app/static/media/abstractBackground.b9f96d6f40d4095c945b.jpg",
+    "static/media/pizzaFries.jpg": "/simple-image-gallery-app/static/media/pizzaFries.cdd0d5c267462b85007d.jpg",
+    "static/media/clockTowerVenice.jpg": "/simple-image-gallery-app/static/media/clockTowerVenice.f586a611a5b03baf4477.jpg",
+    "index.html": "/simple-image-gallery-app/index.html",
+    "main.e35b399f.css.map": "/simple-image-gallery-app/static/css/main.e35b399f.css.map",
+    "main.94a224d6.js.map": "/simple-image-gallery-app/static/js/main.94a224d6.js.map"
   },
   "entrypoints": [
     "static/css/main.e35b399f.css",
-    "static/js/main.5522e42d.js"
+    "static/js/main.94a224d6.js"
   ]
 }
