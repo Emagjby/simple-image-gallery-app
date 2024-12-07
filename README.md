@@ -1,4 +1,4 @@
-# Simple Image Gallery
+# Simple Image Gallery `finished`
 
 ## Difficulty: Medium
 
